@@ -5,7 +5,7 @@
 
 # 💠 Dot Files - Hypr Config 💠
 
-[![Stars Badge](https://img.shields.io/github/stars/micro-hawk/Hyprland-i3.svg?style=for-the-badge&color=82a1f1)](https://github.com/micro-hawk/Hyprland-i3/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/micro-hawk/Hyprland-i3.svg?style=for-the-badge&color=b69bf1)](https://github.com/micro-hawk/Hyprland-i3/commits/main) [![Repo Size](https://img.shields.io/github/repo-size/micro-hawk/Hyprland-i3.svg?style=for-the-badge&color=90cdfa)](https://github.com/micro-hawk/Hyprland-i3)
+[![Stars Badge](https://img.shields.io/github/stars/micro-hawk/hyprland-dotfiles.svg?style=for-the-badge&color=82a1f1)](https://github.com/micro-hawk/hyprland-dotfiles/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/micro-hawk/hyprland-dotfiles.svg?style=for-the-badge&color=b69bf1)](https://github.com/micro-hawk/hyprland-dotfiles/commits/main) [![Repo Size](https://img.shields.io/github/repo-size/micro-hawk/hyprland-dotfiles.svg?style=for-the-badge&color=90cdfa)](https://github.com/micro-hawk/hyprland-dotfiles)
 
 
 
@@ -18,7 +18,7 @@
 ![image](./assets/swappy-20231001_182925.png)
 <br>
 
-![recording](https://github.com/micro-hawk/Hyprland-i3/assets/107239398/776c7548-353e-4cf0-b7f5-2ee29336bdf5)
+![recording](https://github.com/micro-hawk/hyprland-dotfiles/assets/107239398/776c7548-353e-4cf0-b7f5-2ee29336bdf5)
 <br>
 
 ### Tokyo Night Kitty Terminal Color Scheme
