@@ -5,7 +5,8 @@
 
 # 💠 Dot Files - Hypr Config 💠
 
-[![Stars Badge](https://img.shields.io/github/stars/micro-hawk/hyprland-dotfiles.svg?style=for-the-badge&color=82a1f1)](https://github.com/micro-hawk/hyprland-dotfiles/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/micro-hawk/hyprland-dotfiles.svg?style=for-the-badge&color=b69bf1)](https://github.com/micro-hawk/hyprland-dotfiles/commits/main) [![Repo Size](https://img.shields.io/github/repo-size/micro-hawk/hyprland-dotfiles.svg?style=for-the-badge&color=90cdfa)](https://github.com/micro-hawk/hyprland-dotfiles)
+[![Stars Badge](https://img.shields.io/github/stars/micro-hawk/hyprland-dotfiles.svg?style=for-the-badge&color=82a1f1)](https://github.com/micro-hawk/hyprland-dotfiles/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/micro-hawk/hyprland-dotfiles.svg?style=for-the-badge&color=b69bf1)](https://github.com/micro-hawk/hyprland-dotfiles/commits/main) 
+<!-- [![Repo Size](https://img.shields.io/github/repo-size/micro-hawk/hyprland-dotfiles.svg?style=for-the-badge&color=90cdfa)](https://github.com/micro-hawk/hyprland-dotfiles) -->
 
 
 
