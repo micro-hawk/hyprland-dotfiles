@@ -121,7 +121,7 @@
   "network": {
     "format-wifi": "󰒢 {essid}",
     "format-alt" : "󰒢 {bandwidthTotalBits}",
-    "on-click": "nm-applet ",
+    "on-click": "bash ~/.config/rofi/rofi-wifi-menu.sh",
     "on-click-right": "nm-connection-editor",
     "format-ethernet": " wired",
     "tooltip-format": "{essid} {signalStrength}%",
