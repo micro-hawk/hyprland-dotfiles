@@ -6,15 +6,15 @@
   font-weight: bold;
   font-size: 16px;
   background-color: #1a1c2b; /* Reduced opacity background */ 
-}
-
-.modules-right {
-  /* background-color: #1a1c2b; */
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 10px;
 }
 
 window#waybar {
   background-color: rgba(0, 0, 0, 0);
+}
+
+.modules-right {
+  padding-right: 5px;
 }
 
 #custom-launcher {
@@ -59,6 +59,14 @@ window#waybar {
   margin-bottom: 5px;
 }
 
+
+#tray {
+  font-size: 15px;
+  background: #2a2d45;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 #cpu {
   color: #eed49f;
   padding: 0px 10px 0px 12px;
@@ -68,6 +76,7 @@ window#waybar {
 #memory {
   color: #a6da95;
   padding: 0px 10px 0px 0px;
+  border-radius: 0px 5px 5px 0px;
 }
 
 #temperature {

@@ -12,13 +12,14 @@
     "custom/separator",
     "cpu",
     "memory",
-    "temperature",
+    // "temperature",
     "custom/filler",
     "custom/playerctl",
     "custom/filler",
     "disk",
     "custom/filler",
-    "custom/pacman"
+    "custom/separator",
+    "tray"
   ],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [
@@ -30,8 +31,15 @@
     "custom/separator",
     "network",
     "custom/dot",
-    "clock"
+    "clock",
+    "custom/dot",
+    "custom/powermenu"
   ], 
+  "custom/powermenu": {
+    "format": " ",
+    "tooltip": false,
+      "on-click": "~/.config/rofi/applets/menu/powermenu.sh"
+  },
   "custom/playerctl": {
       "format": "[<span foreground='#46c880'>  </span> <span>{}</span> ]",
       "return-type": "json",

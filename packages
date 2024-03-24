@@ -6,6 +6,7 @@ waybar
 swaybg
 swaylock
 slurp
-
+brightnessctl
 kitty
 thunar
+xdg-desktop-portal-wlr
