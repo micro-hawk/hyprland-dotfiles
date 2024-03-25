@@ -12,15 +12,15 @@
 
 /* https://github.com/Axenide/Dotfiles */
 
-@define-color cc-bg #191919;
+@define-color cc-bg #1a1c2b;
 @define-color noti-border-color #47423E;
 @define-color noti-bg #121212;
-@define-color noti-bg-darker #121212;
+@define-color noti-bg-darker #1a1c2b;
 @define-color noti-bg-hover #000000;
 @define-color noti-bg-focus #000000;
 @define-color noti-close-bg #1B1D1D;
 @define-color noti-close-bg-hover #000000;
-@define-color text-color #E0CDA5;
+@define-color text-color #FFF;
 @define-color text-color-disabled #928374;
 @define-color bg-selected #1B1D1D;
 
@@ -53,7 +53,7 @@
 .control-center .notification-row:focus,
 .control-center .notification-row:hover {
     opacity: 1;
-    background: alpha(@red, 0.25);
+    background: #1a1c2b;
     border-radius: 0px;
     margin: 0px;
 }

@@ -4,6 +4,8 @@ grim
 grimshot
 waybar
 swaybg
+swaync
+notification-daemon
 swaylock
 slurp
 brightnessctl
