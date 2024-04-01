@@ -1,25 +1,25 @@
-#!/usr/bin/env bash
-BAT=$(ls /sys/class/power_supply |grep BAT |head -n 1)
-get_perc (){
-  capacity="$(cat /sys/class/power_supply/${BAT}/capacity)"
-  BATSTATUS="$(cat /sys/class/power_supply/${BAT}/status)"
+#!/bin/bash
+
+get_perc() {
+  capacity=$(cat "/sys/class/power_supply/${BAT}/capacity" 2>/dev/null)
+  BATSTATUS=$(cat "/sys/class/power_supply/${BAT}/status" 2>/dev/null)
 }
 
-main (){
-  while true; do
-    get_perc
-    if [ "$BATSTATUS" == "Discharging" ]; then
-      if [ "$capacity" -le 14 ]; then
-        notify-send "Battery Warning!" "Battery is at ${capacity}%"
-        sleep 1200
-      else
-        echo "Battery is at ${capacity}%"
-        sleep 120
-      fi
+BAT=$(ls /sys/class/power_supply | grep BAT | head -n 1)
+
+while true; do
+  get_perc
+  if [ -n "$BATSTATUS" ] && [ "$BATSTATUS" = "Discharging" ]; then
+    if [ "$capacity" -le 14 ]; then
+      notify-send "Battery Warning!" "Battery is at ${capacity}%"
+      sleep 300
+    else
+      echo "Battery is at ${capacity}%"
+      sleep 120
     fi
-  done  
-}
-main
+  fi
+done
+
 
 
 # #!/bin/bash

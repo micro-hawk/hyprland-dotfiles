@@ -1,3 +1,7 @@
+@define-color surface0 rgba(255, 255, 255, 0.9);
+@define-color surface1 #c6a0f6;
+@define-color surface2 #c6a0f6;
+@define-color surface3 #c6a0f6;
 
 * {
   padding: 0;
@@ -106,9 +110,82 @@ window#waybar {
   margin: 5px 10px 5px 0px;
 }
 
-#workspaces button:nth-child(1):active {
-  color: red;
+/* =============================== */
+/* Workspaces */
+#workspaces {
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 2px solid #2a2d45;
 }
+
+#workspaces * {
+  font-size: 0px;
+}
+
+#workspaces button {
+  background-color: @surface3;
+  border-radius: 100%;
+  min-height: 14px;
+  min-width: 14px;
+  margin: 5px 8px;
+  padding: 0px;
+  transition: all 0.5s cubic-bezier(.55, -0.68, .48, 1.68);
+  box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+
+#workspaces button.active {
+  background: @surface2;
+  color: @surface2;
+  border-radius: 1rem;
+  padding: 0rem 15px;
+  box-shadow: 0 0 0 5px @surface2; /* Adjust the last value (3px) to match the gap size */
+  animation: gradient_f 20s ease-in-out infinite;
+  transition: all 0.3s cubic-bezier(.55, -0.68, .48, 1.682);
+}
+
+
+#workspaces button:hover {
+  background-color: @surface2;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 30%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient_f {
+  0% {
+    background-position: 0% 200%;
+  }
+
+  50% {
+    background-position: 200% 0%;
+  }
+
+  100% {
+    background-position: 400% 200%;
+  }
+}
+
+@keyframes gradient_f_nh {
+  0% {
+    background-position: 0% 200%;
+  }
+
+  100% {
+    background-position: 200% 200%;
+  }
+}
+
 
 #workspaces button:nth-child(1) label {
   color: #8aadf4;
@@ -163,6 +240,8 @@ window#waybar {
   margin: 0px 8px;
   background-color: #1a1c2b;
 }
+
+/* =============================== */
 
 
 #battery {
@@ -256,3 +335,4 @@ window#waybar {
 }
 
 /*# sourceMappingURL=style.css.map */
+

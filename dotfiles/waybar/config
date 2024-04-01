@@ -12,7 +12,6 @@
     "custom/separator",
     "cpu",
     "memory",
-    // "temperature",
     "custom/filler",
     "custom/playerctl",
     "custom/filler",
