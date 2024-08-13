@@ -3,9 +3,11 @@ hyprshot
 grim
 grimshot
 waybar
+swaync-client
 swaybg
 swaylock-effects-git
 slurp
-
+alsa-utils
+playerctl
 kitty
 thunar
